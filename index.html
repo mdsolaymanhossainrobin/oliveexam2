@@ -7,14 +7,16 @@
 </head>
 <body>
 	
-	<img id="logo" src="logo.png" alt="logo" style="background-color: rgb(122, 174, 42);
+	<img class="logo" src="logo.png" alt="logo" style="background-color: rgb(122, 174, 42);
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 1500px;
     box-shadow: 2px 2px 5px rgb(136, 136, 136);
     z-index: 5;
-    	Position:fixed;">
+    	Position:fixed;
+    	top:0px;
+    	left:0px;">
 	<div class="main">
 		<div class="header">
 			<h1> Chapter 16 Exam - Test Yourself</h1>
@@ -36,15 +38,20 @@
 		</div>
 		<div class="content">
 			<div class="contentrow1">
-				<img src="me.png" alt="cheezzy" height="254px" width="254px">
-				<p>
-					<span>H</span>i, my name is chezzy. You can call me cheeze so if ever you will call me, You will have a smiley face.
-					I am the owner of Apple and soon to own Microsoft also hopefully in 2018.
-				</p>
+				<div class="contentrow1left">
+					<h2> Cheezzy </h2>
+					<img src="me.png" alt="cheezzy" height="254px" width="254px">
+				</div>
+				<div class="contentrow1right">
+					<p>
+						<span class="hstyle">H</span>i, my name is chezzy. You can call me cheeze so if ever you will call me, You will have a smiley face.
+						I am the owner of Apple and soon to own Microsoft also hopefully in 2018.
+					</p>
+				</div>
 			</div>
 			<div class="contentrow2">
 				<div class="row2colomn1">
-					<p> <a href="#">Here's my achievements</a></p>
+					<p class="tcenter"> <a href="#">Here's my achievements</a></p>
 					<ul>
 						<li>Achieve MIT in the age of 18</li>
 						<li>Own a company at the age of 22</li>
@@ -54,17 +61,17 @@
 					</ul>
 				</div>
 				<div class="row2colomn2">
-					<p> <a href="#">Here's the list of what i know to code</a></p>
+					<p class="tcenter"> <a href="#">Here's the list of what i know to code</a></p>
 					<ol>
-						<li>HTML/CSS</li>
-						<li>Javascript</li>
-						<li>PHP</li>
+						<li><a href="#"> HTML/CSS </a></li>
+						<li> <a href="#">Javascript </a></li>
+						<li> <a href="#">PHP </a></li>
 					</ol>
 				</div>
 			</div>
 			<div class="contentrow3">
 				<h2>My Education</h2>
-				<table border="1">
+				<table>
 					<thead>
 						<td>Elementary</td>
 						<td>Secondary</td>
@@ -83,14 +90,14 @@
 			</div>
 			<div class="contentrow4">
 				<h2> Entertainment</h2>
-				<p>video</p>
+				<p class="tlower">video</p>
 				<video width="400" height="230" controls> 
 					<source src="vid.mp4" type="video/mp4">
 					<source src="vid.avi" type="video/avi">
 					Your browser does not support the video tag.
 				</video>
 				<p>The video describes who I really am</p>
-				<p>audio</p>
+				<p class="tlower">audio</p>
 				<audio controls>
 					<source src="horse.ogg" type="audio/ogg">
 					<source src="horse.mp3" type="audio/mp3">
