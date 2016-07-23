@@ -5,5 +5,43 @@
 	box-shadow: 1px 1px 10px 1px #888888;
 	padding: 10px;
 	margin-top: 10px;
+	position: relative;
+    top: 80px;
+    border-radius: 15px;
+    border: 1px;
+}
 	
+.header h1{
+	text-align: center;
+	text-shadow: 1px 2px #96cd42;
+}
+
+.header ul{
+	    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #7ea540;
+    text-align: center;
+    padding-left: 300px;
+}
+
+.header ul li{
+	float: left;
+	border-right: 2px solid #5e8720;
+}
+.header ul li a{
+	display: inline-block;
+	color: #0d6600;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.header ul li a:hover{
+	background-color: #43552d;
+	color: white;
+}
+.underline{
+	    height: 5px;
+   		background: rgb(122, 174, 42) none repeat scroll 0% 0%;
+    	margin-bottom: 20px;
 }
