@@ -45,3 +45,41 @@
    		background: rgb(122, 174, 42) none repeat scroll 0% 0%;
     	margin-bottom: 20px;
 }
+.bannerimage{
+	position: relative;
+}
+.bannertext{
+	position: absolute;
+top: 325px;
+left: -90px;
+background: white;
+opacity: .5;
+padding-right: 235px;
+padding-top: 75px;
+padding-bottom: 65px;
+font-size: 18px;
+font-weight: bold;
+color: #446c18;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
